@@ -18,7 +18,7 @@ pipeline {
         stage('Clone Source') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/nilesh-g/express-login-ui'
+                url: 'https://github.com/snehaladole1412/express-login-ui.git'
             }
         }
 
